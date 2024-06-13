@@ -1,8 +1,9 @@
 extends: existence
-message: "Don't start a sentence with '%s'."
+message: "Не используйте вводное слово '%s'."
 ignorecase: true
 level: error
-raw:
+tokens:
+  - 'Конечно'
   - 'без сомнения'
   - 'безусловно'
   - 'бесспорно'
